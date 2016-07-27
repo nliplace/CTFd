@@ -1,0 +1,19 @@
+{
+  "name": "CTFd",
+  "scripts": {
+    "postdeploy": "python serve.py ",
+    "pr-predestroy": "./prepare.sh"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
